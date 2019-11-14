@@ -1,0 +1,5 @@
+Copy Data from one DB to Another DB
+
+INSERT INTO DB1 ( name, company, city, pincode )
+SELECT name,company,city,pincode FROM DB2
+WHERE Condition;
